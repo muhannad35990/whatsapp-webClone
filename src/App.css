@@ -1,0 +1,25 @@
+.app{
+  display: grid;
+  place-items: center;
+background-color: #dadbd3;
+height: 100vh;
+ position: relative;
+ 
+}
+.app__body{
+display: flex;
+background-color: #ededed;
+height: 90vh;
+width: 90vw;
+box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.7); 
+ position: absolute;
+ top:5vh
+}
+.green__banner{
+  position: fixed;
+  top: 0;
+  height: 15vh;
+  width: 100vw;
+  background-color: #00968A;
+ 
+}
